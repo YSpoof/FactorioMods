@@ -1,0 +1,9 @@
+{
+  "name": "ZElectricVehicles",
+  "version": "1.1.0",
+  "title": "ZElectricVehicles",
+  "author": "N0TZ3R0",
+  "factorio_version": "1.1",
+  "dependencies": ["base >= 1.1", "?VehicleGrid", "?bobwarfare", "?ZFixes", "?SchallPrimaryBattery", "?aai-programmable-vehicles"],
+  "description": "Adds a Electric Transformer to powerup our vehicles."
+}

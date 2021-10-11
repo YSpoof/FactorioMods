@@ -1,0 +1,214 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.3.2
+Date: 2021.10.30
+  Info:
+    - Added option to start with Antron and Spider remote.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.1
+Date: 2021.10.12
+  Info:
+    - Added option to start with Antron.
+    - Compressed images even more to reduce mod size.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.0
+Date: 2021.10.10
+  Info:
+    - Fixed some spelling ( Uh, I gotta improve my English... ).
+    - Reduced Manual Mining speed from 1.5 to 1.3.
+    - Updated HeatGlow.
+    - Updated Roboports Radius.
+    - Tweaked Steam-Furnace.
+    - K2_WirelessCharger Energy Absorber is now 100 copper cables more expensive.
+    - Little buff on ShockTurret damage ( 4 to 6 ).
+    - Landfill is now 15 stone.
+    - Compressed Images and Code to reduce mod size.
+    - Changed Chests Recipes.
+    - Set Logistic Delivery Icon to a smaller one.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.9
+Date: 2021.03.13
+  Info:
+    - Option to start with a car.
+    - Fixed some spelling.
+    - Even less red.
+    - Character running speed is now configurable ( suggestion from TolgahanTR ).
+    - Mod now advise on runtime settings are changed/updated.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.8
+Date: 2021.03.10
+  Info:
+    - Reduced LabSpeed ( From cheat option ).
+    - Reduced LabProductivity ( From cheat option ).
+    - Now you start a new map with some free techs ( if SuperQOL is enabled )( see mod description ).
+    - Tweaked some code.
+    - Respawn time is now configurable.
+    - Fixed in game changelog.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.7
+Date: 2021.03.07
+  Info:
+    - Full dark nights is now enable by default.
+    - Made landfill even more cheap ( from 15 to 13 ).
+    - Reduced LabSpeed ( From cheat option ).
+    - Reduced LabProductivity ( From cheat option ).
+    - Entity ghosts enabled by default.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.6
+Date: 2021.02.28
+  Info:
+    - Boilers will quickstart with 10 water units.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.5
+Date: 2021.02.25
+  Info:
+    - Improved contrast of Logistic Chests.
+    - Improved heat-pipes glow a little bit more.
+    - Fixed Small-Power-Pole wire reach and supply distance.
+    - Reduced build and reach distance from 300 to 200.
+    - Changed more settings of K2_WirelessCharger
+    - Removed no-lakes changes.
+    - Now you can place wood as floor Thanks to zanven.
+    - Improved HeatGlow for heat-pipes, reactor, and heat-exchanger Thanks to max2344.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.4
+Date: 2021.02.19
+  Info:
+    - Added option to increase all solar panels energy production by 4 times and increase accumulators by 2 times.
+    - Fixed missing title for Linked-Chest technology.
+    - Reduced some code.
+    - Removed BigTruck changes.
+    - Removed Wood-Walls changes.
+    - Added option to make oil finite.
+    - Changed settings of ShockTurret.
+    - Improved Sniper Range ( Bob's Warfare ) from 30 to 40.
+    - Improved heat-pipes glow Thanks to max2344.
+    - Added a better icon to Linked-Chest technology.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.3
+Date: 2021.02.10
+  Info:
+    - Quick fix to Linked Chest 'signal' now you can select it as icon for blueprint books and etc. Thanks to @Doggo on Discord.
+    - Linked-Chest inventory size is now 19 slots.
+    - Linked-Chest is now in logistics group.
+    - Added option to change corpse duration.
+    - Fixed some spelling.
+    - Fixed setting names ( forgot to add ;-; ).
+---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+Date: 2021.02.09
+  Info:
+    - Changed some settings of K2_WirelessCharging.
+    - Changed some settings of Wood-Walls.
+    - Added option to enable full dark nights.
+    - Added option to reduce the red flash intensity when you get dammaged.
+    - Changed some settings of bigtruck ( rebalance ).
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 2021.02.05
+  Info:
+    - Beacons can now utilize all modules.
+    - Beacons have now a little bit bigger supply area.
+    - Beacons have now a 4 module slots.
+    - Beacons have now 0.7 of effectivity ( vanilla was 0.5 )
+    - Updated spelling.
+    - Made Steel-Plate recipe 30 percent faster.
+    - Nightvision equipment is now 1x1 ( Credits to original mod creator MrDoomah ).
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2021.02.04
+  Info:
+    - Fixed compatibility with aai-industry by disabling change to electric-engine-unit.
+    - If u know how to fix the electric-engine-unit report to me on the mod portal, thank u :)
+    - Also I'll credit ya for that.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.9
+Date: 2021.01.23
+  Info:
+    - PowerPoles fixes ( Credits to original mod creator PiggyWhiskey ).
+    - Removed Battery-Pack changes since it's now merged here.
+    - New Personal Battery-Pack ( Credits to original mod creator Endus322 ).
+    - Merged ZLinkedChest to here.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.8
+Date: 2021.01.17
+  Info:
+    - Made landfill more cheap.
+    - Fixed BlueCircuit code location.
+    - Fixed Steam Furnace not appearing ( I looked at the code and c it disappear, wtf ).
+    - Added Coocked Fish ( Credits to original mod creator: asher_sky ).
+    - Made respawn quicker ( 5 secconds )
+    - Plastic now stacks to 999
+    - Upgraded Roboports ( Credits to original mod creator Optera )
+---------------------------------------------------------------------------------------------------
+Version: 1.1.7
+Date: 2021.01.10
+  Info:
+    - Organized File Structure.
+    - Removed TurboBike changes.
+    - Removed Robocharger changes.
+    - Removed RandomColor changes.
+    - Added option to add equipment grid to light and heavy armor.
+    - Migrated Electric Engine recipe from ZElectricVehicles to here.
+    - Updated Personal Battery-Pack Recipe.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.6
+Date: 2021.01.08
+  Info:
+    - Code Optmizations.
+    - Image Optmizations.
+    - Blue circuit even more cheap ( 3 green ; 2 red + less time needed )
+    - Wood to coal need less time.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.5
+Date: 2021.01.06
+  Info:
+    - Changed some settings of TurboBike.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.4
+Date: 2021.01.05
+  Info:
+    - Changed some settings of Robocharger.
+    - Changed some Settings of Bob's Mining.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 2021.01.03
+  Info:
+    - Fixed blue circuit cost less, It was missing one word on the code.
+    - Fixed locale error ( duplicate coal recipe for different settings ).
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 2021.01.03
+  Info:
+    - Added a Experimental? ( need improvments ) Steam-Furnace if you have Bob's Assembly.
+    - This furnace needs steam at least with 415.00 degree temperature iirc.
+    - Added a setting that enables kinda a cheat mode that boosts laboratory speed/productivity
+    - Crafting Speed, Reach, and a few other things I'm lazy to type.
+    - Added option to make blue circuit less expensive
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2020.12.31
+  Info:
+    - Now it has Startup settings, so u can tweak what this mod changes.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2020.12.29
+  Info:
+    - Optimized some code " Kinda "
+    - Added a lot of things, check homepage for what this mod does.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 2020.12.28
+  Info:
+    - Changed some settings of Bob's Assembly Machines.
+    - Added a recipe to smelt wood into coal.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 2020.12.28
+  Info:
+    - Changed some settings of Bob's Greenhouse and Personal Battery Pack.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 2020.12.24
+  Info:
+    - First Release.
+    - Changed some settings of Bobs Warfare.

@@ -1,0 +1,1 @@
+data.raw["item"]["plastic-bar"].stack_size = 999

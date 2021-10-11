@@ -1,0 +1,9 @@
+{
+  "name": "Raven_Raised",
+  "version": "1.0.1",
+  "title": "Raven_Raised",
+  "author": "N0TZ3R0",
+  "dependencies": ["base", "?ZElectricVehicles", "!Raven"],
+  "description": "Flying vecicle like airplane. You need to achieve a certain speed for take off. Fork of Raven from maroder with raise_built and raise_destroy added.",
+  "factorio_version": "1.1"
+}

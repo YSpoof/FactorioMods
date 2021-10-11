@@ -1,0 +1,1 @@
+data.raw["recipe"]["steel-plate"].normal.energy_required = 11.2

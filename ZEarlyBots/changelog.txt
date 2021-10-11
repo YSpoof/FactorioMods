@@ -1,0 +1,57 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2021.10.12
+  Info:
+    - Hotfix Early-Roboport eating too much energy while idle.
+    - Fixed Early-Roboport having more health than default one.
+    - Fixed broken changelog.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2021.10.12
+  Info:
+    - Added Early-Logistic-Bot.
+    - Added Early-Roboport.
+    - Added Technology to early-unlock the Early-Logistic-Bots.
+    - Added some High Res textures.
+    - Compressed the mod images to reduce size.    
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2021.04.14
+  Info:
+    - Added EquipmentGrid to Light and Heavy armor, ZFixes is cool but not needed anymore.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2021.03.13
+  Info:
+    - Added option to start with minimal equipment.
+    - Such as: 4 early solar panels + 2 early personal roboports + 1 light armor.
+    - If u want for the light armor and heavy armor to have equipment grid, check my other mod
+    - ZFixes.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
+Date: 2021.02.04
+  Info:
+    - Updated equipment size ( now its 2x1 ).
+    - Reduced number of robots to 5 per personal roboport.
+    - Increased roboport size from 14x14 to 20x20
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 2021.01.29
+  Info:
+    - Updated sprites.
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 2021.01.21
+  Info:
+    - Added Early Solar Panel.
+    - Changed icons. ( Wow this took me a lot of time :( ... )
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 2021.01.10
+  Info:
+    - Hot Fix
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 2021.01.10
+  Info:
+    - First Release.

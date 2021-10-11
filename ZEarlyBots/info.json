@@ -1,0 +1,9 @@
+{
+  "name": "ZEarlyBots",
+  "version": "1.0.3",
+  "title": "ZEarlyBots",
+  "author": "N0TZ3R0",
+  "factorio_version": "1.1",
+  "dependencies": ["base >= 1.1", "?ZFixes"],
+  "description": "Add guess what ? Early Bots."
+}
