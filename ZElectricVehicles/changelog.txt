@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2021.11.7
+  Info:
+    - New graphics by snouz (equipment, icon, tech mod icon).
+    - Some code cleanup.
+---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 2021.11.2
   Info:
@@ -65,7 +71,7 @@ Date: 2021.01.08
   Info:
     - Now u can tweak vehicle speed and acceleration when using electricity.
     - Forced Spidertron to consume fuel, if didn't did that it would crash the game.
-    - Changed VehicleGrid dependency from required to optional. 
+    - Changed VehicleGrid dependency from required to optional.
     - Changed Bob's Warfare dependency from required to optional.
     - Fixed icon size of technology.
     - Balanced technology

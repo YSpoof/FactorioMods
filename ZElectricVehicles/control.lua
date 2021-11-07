@@ -1,9 +1,9 @@
 local bmspidertrons = {
-      ["bm-spidertron_1"] = true,
-      ["bm-spidertron_2"] = true,
-      ["bm-spidertron_3"] = true,
-      ["bm-spidertron_4"] = true,
-      ["bm-spidertron_5"] = true,
+  ["bm-spidertron_1"] = true,
+  ["bm-spidertron_2"] = true,
+  ["bm-spidertron_3"] = true,
+  ["bm-spidertron_4"] = true,
+  ["bm-spidertron_5"] = true,
 }
 
 local VEHICLE_TYPES = {}
@@ -13,7 +13,9 @@ local script_data = {
   cars = {}
 }
 local MODULO = 30 -- update each vehicle once per 30 ticks
-for i=0,MODULO-1 do script_data.cars[i] = {} end
+for i=0,MODULO-1 do
+  script_data.cars[i] = {}
+end
 
 local EQUIPMENT = "zelectric-transformer"
 local FUEL = "zelectric-transformer-power"
@@ -33,7 +35,7 @@ end
 
 
 local function onBuilt(entity)
-  if not (entity and entity.valid and isVehicle(entity)) then return end  
+  if not (entity and entity.valid and isVehicle(entity)) then return end
   if bmspidertrons[entity.name] then return else
   script_data.cars[entity.unit_number % MODULO][entity.unit_number] = entity
     -- game.print("Registered vehicle " .. entity.unit_number)
@@ -95,8 +97,8 @@ remote.add_interface("AAI-ZElectricVehicles_on_entity_replaced", { on_entity_rep
 
 
 event_handler.add_lib{
-  on_init = function() 
-  
+  on_init = function()
+
     global.vehicles = global.vehicles or script_data.cars
     -- scan for any existing vehicles on any surfaces and start tracking them
     for _,surface in pairs(game.surfaces) do
@@ -104,9 +106,9 @@ event_handler.add_lib{
       for _,entity in pairs(vehicles) do
         onBuilt{entity=entity}
       end
-    end    
+    end
   end,
-  on_load = function()  
+  on_load = function()
     script_data.cars = global.vehicles or script_data.cars
   end,
   events = {
