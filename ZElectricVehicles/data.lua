@@ -84,7 +84,7 @@ data:extend{
     fuel_acceleration_multiplier = settings.startup["ZElectricVehicles-Acceleration"].value,
     fuel_top_speed_multiplier = settings.startup["ZElectricVehicles-TopSpeed"].value,
     stack_size = 1,
-    flags = {"hidden", "hide-from-fuel-tooltip"},
+    flags = {"hide-from-fuel-tooltip"},
   },
 }
 

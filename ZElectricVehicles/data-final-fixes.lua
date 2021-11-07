@@ -1,4 +1,3 @@
-
 ------------------------------- SPIDER FIX --------------------------------
 
 if settings.startup["ZElectricVehicles-SpiderFuel"].value then
@@ -50,7 +49,7 @@ end
 
 ------------------------------- EARLY MODE --------------------------------
 
-if mods["SchallPrimaryBattery"] then
+if settings.startup["ZElectricVehicles-EarlyMode"].value then
 
   data.raw["technology"]["zelectric-transformer"].prerequisites = {"engine"}
 

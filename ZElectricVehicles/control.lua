@@ -1,3 +1,7 @@
+-- Turn ZDEBUG to 1 if you want to see if your vehicle got registered/unregistered by my mod.
+
+local ZDEBUG = 0
+
 local bmspidertrons = {
   ["bm-spidertron_1"] = true,
   ["bm-spidertron_2"] = true,
@@ -38,24 +42,29 @@ local function onBuilt(entity)
   if not (entity and entity.valid and isVehicle(entity)) then return end
   if bmspidertrons[entity.name] then return else
   script_data.cars[entity.unit_number % MODULO][entity.unit_number] = entity
-    -- game.print("Registered vehicle " .. entity.unit_number)
+    if ZDEBUG == 1 then
+      game.print("Registered vehicle " .. entity.unit_number)
+    end
   end
 end
 
 
-local function onBuilt_Event(event)	--Adapter for Event
-	onBuilt(event.entity or event.created_entity)
+local function onBuilt_Event(event) --Adapter for Event
+  onBuilt(event.entity or event.created_entity)
 end
 
-local function onBuilt_Entity(entity)	--Adapter for Entity (currently excess)
-	onBuilt(entity)
+local function onBuilt_Entity(entity) --Adapter for Entity (currently excess)
+  onBuilt(entity)
 end
 
 local function onMined(event)
   local entity = event.entity
   if not (entity and entity.valid and isVehicle(entity)) then return end
   script_data.cars[entity.unit_number % MODULO][entity.unit_number] = nil
-    -- game.print("Unregistered vehicle " .. entity.unit_number)
+    
+  if ZDEBUG == 1 then
+    game.print("Unregistered vehicle " .. entity.unit_number)
+  end
 end
 
 local function onTick(event)
@@ -78,15 +87,37 @@ local function onTick(event)
         for _,equipment in pairs(car.grid.equipment) do
           if equipment.name == EQUIPMENT then
             local drain = math.min(equipment.energy, missing)
-            equipment.energy = equipment.energy - drain * 2
+            equipment.energy = equipment.energy - drain * 2.5
             car.burner.remaining_burning_fuel = car.burner.remaining_burning_fuel + drain
+            car.burner.inventory.insert{name = FUEL, count = 1}
             missing = missing - drain * 2
+            if missing <= 0 then break end
+            else
+              car.burner.inventory.remove{name = FUEL}
             if missing <= 0 then break end
           end
         end
       end
     end
   end
+end
+
+local function on_player_cursor_stack_changed(event)
+    local player = game.get_player(event.player_index)
+    if not player or not player.valid then return end
+    if player.cursor_stack.valid_for_read and player.cursor_stack.name == FUEL then
+        player.cursor_stack.clear()
+    end
+end
+
+local function on_player_main_inventory_changed(event)
+    local player = game.get_player(event.player_index)
+    if not player or not player.valid then return end
+    local inventory = player.get_main_inventory()
+    local count = inventory.get_item_count(FUEL)
+    if count > 0 then
+        inventory.remove({name = FUEL, count = count})
+    end
 end
 
 
@@ -104,7 +135,7 @@ event_handler.add_lib{
     for _,surface in pairs(game.surfaces) do
       local vehicles = surface.find_entities_filtered{type = VEHICLE_TYPES}
       for _,entity in pairs(vehicles) do
-        onBuilt{entity=entity}
+        onBuilt{entity = entity}
       end
     end
   end,
@@ -120,6 +151,8 @@ event_handler.add_lib{
     [defines.events.on_player_mined_entity] = onMined,
     [defines.events.on_robot_mined_entity] = onMined,
     [defines.events.on_entity_died] = onMined,
-    [defines.events.script_raised_destroy] = onMined
+    [defines.events.script_raised_destroy] = onMined,
+    [defines.events.on_player_cursor_stack_changed] = on_player_cursor_stack_changed,
+    [defines.events.on_player_main_inventory_changed] = on_player_main_inventory_changed
   }
 }

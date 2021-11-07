@@ -3,7 +3,14 @@ Version: 1.2.0
 Date: 2021.11.7
   Info:
     - New graphics by snouz (equipment, icon, tech mod icon).
-    - Some code cleanup.
+    - Some code cleanup also by snouz.
+    - Fixed some English typos also by snouz.
+    - French locale also by snouz. Man that snouz is a pro!!
+    - Transformer energy icon now appears on vehicle fuel slot.
+    - Transformer now drains a little bit more of energy.
+    - Transformer equipment is now 3x3 on the grid, re-insert it on all your vehicles to not cause weird bugs. 
+    - Added a "flag" to control.lua so you can check if my mod is registering your vehicles.
+    - Added option to make the Transformer usable in Early-Game.
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 2021.11.2

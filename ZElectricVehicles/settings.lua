@@ -21,4 +21,10 @@ data:extend({
     setting_type = "startup",
     default_value = true
   },
+  {
+    type = "bool-setting",
+    name = "ZElectricVehicles-EarlyMode",
+    setting_type = "startup",
+    default_value = false
+  }
 })
