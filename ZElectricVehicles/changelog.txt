@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 2021.11.9
+  Info:
+    - Disabled ( temporary ) the fuel item being added to the vehicles.
+    - For fixing a reported bug of free fuel.
+---------------------------------------------------------------------------------------------------
 Version: 1.2.0
 Date: 2021.11.7
   Info:

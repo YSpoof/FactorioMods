@@ -89,11 +89,8 @@ local function onTick(event)
             local drain = math.min(equipment.energy, missing)
             equipment.energy = equipment.energy - drain * 2.5
             car.burner.remaining_burning_fuel = car.burner.remaining_burning_fuel + drain
-            car.burner.inventory.insert{name = FUEL, count = 1}
+            -- car.burner.inventory.insert{name = FUEL, count = 1}
             missing = missing - drain * 2
-            if missing <= 0 then break end
-            else
-              car.burner.inventory.remove{name = FUEL}
             if missing <= 0 then break end
           end
         end
