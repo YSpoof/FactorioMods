@@ -13,7 +13,6 @@ dr["electric-pole"]["small-electric-pole"].supply_area_distance = dr["electric-p
 -- Coverage Area only
 
 	dr["electric-pole"]["medium-electric-pole"].supply_area_distance = dr["electric-pole"]["medium-electric-pole"].maximum_wire_distance / 2
-	
 	if mods["bobpower"] then	
 		if settings.startup["bobmods-power-poles"].value == true then
         dr["electric-pole"]["medium-electric-pole-2"].supply_area_distance = dr["electric-pole"]["medium-electric-pole-2"].maximum_wire_distance / 2
@@ -27,7 +26,6 @@ end
 --Wire Distance only
 
 	dr["electric-pole"]["big-electric-pole"].maximum_wire_distance = 32 --1 Chunk
-
 	if mods["bobpower"] then
 		if settings.startup["bobmods-power-poles"].value == true then
 			dr["electric-pole"]["big-electric-pole-2"].maximum_wire_distance = 40 --1.25 Chunk

@@ -1,2 +1,2 @@
-local drr = data.raw["recipe"]
+local drr = data.raw.recipe
 drr["landfill"].ingredients = {{ "stone", 15 },}

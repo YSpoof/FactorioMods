@@ -119,12 +119,6 @@ data:extend({
     },
     {
         type = bool,
-        name = "ZFixes-K2WirelessCharger",
-        setting_type = start,
-        default_value = true
-    },
-    {
-        type = bool,
         name = "ZFixes-DarkerNight",
         setting_type = start,
         default_value = true
@@ -183,7 +177,7 @@ data:extend({
         type = "double-setting",
         name = "ZFixes-CharSpeed",
         setting_type = rglobal,
-        default_value = 1.5,
+        default_value = 1.2,
         minimum_value = 1
     },
     {

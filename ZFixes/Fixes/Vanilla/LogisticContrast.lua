@@ -10,7 +10,8 @@ drI["logistic-chest-passive-provider"].icon = "__ZFixes__/Graphics/Icons/logisti
 drI["logistic-chest-requester"].icon = "__ZFixes__/Graphics/Icons/logistic-chest-requester.png"
 drI["logistic-chest-storage"].icon = "__ZFixes__/Graphics/Icons/logistic-chest-storage.png"
 
--- Item Icon
+-- Item Icon END
+
 
 -- Container Icon
 
@@ -20,42 +21,44 @@ drLC["logistic-chest-passive-provider"].icon = "__ZFixes__/Graphics/Icons/logist
 drLC["logistic-chest-requester"].icon = "__ZFixes__/Graphics/Icons/logistic-chest-requester.png"
 drLC["logistic-chest-storage"].icon = "__ZFixes__/Graphics/Icons/logistic-chest-storage.png"
 
--- Container Icon
+-- Container Icon END
+
 
 -- Entity Icon
 
 -- Requester
 
 drLC["logistic-chest-requester"].animation.layers[1].filename = "__ZFixes__/Graphics/Entity/logistic-chest/logistic-chest-requester.png"
-
 drLC["logistic-chest-requester"].animation.layers[1].hr_version.filename = "__ZFixes__/Graphics/Entity/logistic-chest/hr-logistic-chest-requester.png"
 
--- Requester
+-- Requester END
+
 -- Storage
 
 drLC["logistic-chest-storage"].animation.layers[1].filename = "__ZFixes__/Graphics/Entity/logistic-chest/logistic-chest-storage.png"
-
 drLC["logistic-chest-storage"].animation.layers[1].hr_version.filename = "__ZFixes__/Graphics/Entity/logistic-chest/hr-logistic-chest-storage.png"
 
--- Storage
+-- Storage END
+
 -- Active
 
 drLC["logistic-chest-active-provider"].animation.layers[1].filename = "__ZFixes__/Graphics/Entity/logistic-chest/logistic-chest-active-provider.png"
-
 drLC["logistic-chest-active-provider"].animation.layers[1].hr_version.filename = "__ZFixes__/Graphics/Entity/logistic-chest/hr-logistic-chest-active-provider.png"
 
--- Active
+-- Active END
+
 -- Passive
 
 drLC["logistic-chest-passive-provider"].animation.layers[1].filename = "__ZFixes__/Graphics/Entity/logistic-chest/logistic-chest-passive-provider.png"
-
 drLC["logistic-chest-passive-provider"].animation.layers[1].hr_version.filename = "__ZFixes__/Graphics/Entity/logistic-chest/hr-logistic-chest-passive-provider.png"
 
--- Passive
+-- Passive END
+
 -- Buffer
 
 drLC["logistic-chest-buffer"].animation.layers[1].filename = "__ZFixes__/Graphics/Entity/logistic-chest/logistic-chest-buffer.png"
-
 drLC["logistic-chest-buffer"].animation.layers[1].hr_version.filename = "__ZFixes__/Graphics/Entity/logistic-chest/hr-logistic-chest-buffer.png"
 
--- Buffer
+-- Buffer END
+
+-- Entity Icon END

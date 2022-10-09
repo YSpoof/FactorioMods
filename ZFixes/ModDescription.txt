@@ -78,14 +78,6 @@ Changed all Spidertron's weapons ( check in game ).
 Changed Sniper-Range from 30 to 40.
 Disable Spidertron's weapon switch ( causes weird things if you put ammo in all it's guns. lol ).
 Disabled technology for some armors ( Invar Cobalt-steel armor | Titanium-Ceramic armor ).
-
-]
-
-K2_WirelessCharger [
-Changed technology prerequisites ( modular armor + personal battery ).
-Changed technology costs ( 100 red and green science ).
-Changed Energy Absorber ingredients ( 6 iron-plate + 200 copper-cable ).
-Reduced technology costs for upgrades.
 ]
 
 ShockTurret [

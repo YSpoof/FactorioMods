@@ -1,7 +1,4 @@
-local drr = data.raw.recipe
-
-data:extend(
-{
+data:extend({
     {
 	type= "recipe",
 	name = "wood2coal",
@@ -15,5 +12,3 @@ data:extend(
 	subgroup = "fluid-recipes",
     },
 })
-
-

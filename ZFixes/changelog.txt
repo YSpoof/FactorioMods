@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.3.3
+Date: 2022.10.08
+  Info:
+    - Finally, the code is fully identated.
+    - Fixed misplaced "Ghost Time To Live" code, was a duplicate.
+    - Fixed misplaced code line that was doing nothing but taking space.
+    - Fixed "Steam Furnace" always unlocked, even without steel-furnace tech avaliable.
+    - Removed K2_WirelessCharger support.
+    - Added a Mini 2x2 Radar Thanks to Endus322.
+    - Removed HeatGlow stuff.
+    - Nerfed my default Character speed (1.5 > 1.2)
+---------------------------------------------------------------------------------------------------
 Version: 1.3.2
 Date: 2021.10.30
   Info:

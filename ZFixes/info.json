@@ -1,9 +1,9 @@
 {
   "name": "ZFixes",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "title": "ZFixes",
   "author": "N0TZ3R0",
   "factorio_version": "1.1",
-  "dependencies": ["base", "flib","?bobwarfare", "?bobgreenhouse", "?bobassembly", "?bobmining", "?K2_Wireless-Charger","?ShockTurret"],
+  "dependencies": ["base", "flib","?bobwarfare", "?bobgreenhouse", "?bobassembly", "?bobmining", "?ShockTurret"],
   "description": "It changes some settings and mod settings for my personal use. A little bit cheat? Maybe? Or Nah ?"
 }

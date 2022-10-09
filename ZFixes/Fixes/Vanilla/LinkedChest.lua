@@ -4,27 +4,26 @@ dr["linked-container"]["linked-chest"].inventory_size = 19
 dr["item"]["linked-chest"].flags = {}
 dr["item"]["linked-chest"].subgroup = "logistic-network"
 dr["item"]["linked-chest"].order = "b[linked-chest]-c[logistic-chest-active-provider]"
-data:extend(
-{
+data:extend({
     {
-	type= "recipe",
-	name = "zlinkedchest",
-	category = "crafting",
+        type= "recipe",
+        name = "zlinkedchest",
+        category = "crafting",
         ingredients = {
-			{type = "item", name = "steel-chest", amount = 4},
-			{type = "item", name = "logistic-chest-passive-provider", amount = 1},
-			{type = "item", name = "logistic-chest-requester", amount = 1}
-		},
+            {type = "item", name = "steel-chest", amount = 4},
+            {type = "item", name = "logistic-chest-passive-provider", amount = 1},
+            {type = "item", name = "logistic-chest-requester", amount = 1}
+        },
         results = {{type = "item", name = "linked-chest", amount = 1}},
         enabled = "false",
-	energy_required = 2,
-	subgroup = "logistic-network",
-    order = "b[linked-chest]-c[logistic-chest-active-provider]",
-	crafting_machine_tint = {
-		primary = {r = 0.000, g = 0.000, b = 0.000, a = 0.000},
-		secondary = {r = 0.000, g = 0.000, b = 0.000, a = 0.000},
-		tertiary = {r = 0.000, g = 0.000, b = 0.000, a = 0.000}
-	}
+        energy_required = 2,
+        subgroup = "logistic-network",
+        order = "b[linked-chest]-c[logistic-chest-active-provider]",
+        crafting_machine_tint = {
+            primary = {r = 0.000, g = 0.000, b = 0.000, a = 0.000},
+            secondary = {r = 0.000, g = 0.000, b = 0.000, a = 0.000},
+            tertiary = {r = 0.000, g = 0.000, b = 0.000, a = 0.000}
+        }
     },
     {
         type = "technology",
@@ -37,10 +36,9 @@ data:extend(
                 recipe = "zlinkedchest"
             }
         },
-	prerequisites = 
-	{
-	"logistic-robotics", "chemical-science-pack", "logistic-science-pack"	
-	},
+        prerequisites = {
+            "logistic-robotics", "chemical-science-pack", "logistic-science-pack"	
+        },
         unit = {
             count = 100,
             ingredients = {
