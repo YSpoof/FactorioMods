@@ -1,0 +1,256 @@
+
+{
+  "mods": 
+  [
+    
+    {
+      "name": "base",
+      "enabled": true
+    },
+    
+    {
+      "name": "alien-biomes",
+      "enabled": true
+    },
+    
+    {
+      "name": "alien-biomes-hr-terrain",
+      "enabled": true
+    },
+    
+    {
+      "name": "ArmouredBiters",
+      "enabled": true
+    },
+    
+    {
+      "name": "assembler-pipe-passthrough",
+      "enabled": true
+    },
+    
+    {
+      "name": "belt-balancer-performance",
+      "enabled": true
+    },
+    
+    {
+      "name": "Big-Monsters",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobassembly",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobenemies",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobgreenhouse",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobinserters",
+      "enabled": true
+    },
+    
+    {
+      "name": "boblibrary",
+      "enabled": true
+    },
+    
+    {
+      "name": "boblogistics",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobmining",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobpower",
+      "enabled": true
+    },
+    
+    {
+      "name": "bobwarfare",
+      "enabled": true
+    },
+    
+    {
+      "name": "BottleneckLite",
+      "enabled": true
+    },
+    
+    {
+      "name": "Brighter-Lamps",
+      "enabled": true
+    },
+    
+    {
+      "name": "bullet-trails",
+      "enabled": true
+    },
+    
+    {
+      "name": "camedo-microwave",
+      "enabled": true
+    },
+    
+    {
+      "name": "cb-science",
+      "enabled": true
+    },
+    
+    {
+      "name": "CheapMode",
+      "enabled": true
+    },
+    
+    {
+      "name": "chest-auto-sort",
+      "enabled": true
+    },
+    
+    {
+      "name": "even-distribution",
+      "enabled": true
+    },
+    
+    {
+      "name": "factorio-research-queue",
+      "enabled": true
+    },
+    
+    {
+      "name": "factoriohd_base",
+      "enabled": true
+    },
+    
+    {
+      "name": "factoriohd_military",
+      "enabled": true
+    },
+    
+    {
+      "name": "factoriohd_modpack",
+      "enabled": true
+    },
+    
+    {
+      "name": "factoriohd_production",
+      "enabled": true
+    },
+    
+    {
+      "name": "flib",
+      "enabled": true
+    },
+    
+    {
+      "name": "IntelligentSpidertrons",
+      "enabled": true
+    },
+    
+    {
+      "name": "inventory-repair",
+      "enabled": true
+    },
+    
+    {
+      "name": "Merge_queue",
+      "enabled": true
+    },
+    
+    {
+      "name": "m_WhereIsMyBody",
+      "enabled": true
+    },
+    
+    {
+      "name": "NicerFuelGlowButUpdated",
+      "enabled": true
+    },
+    
+    {
+      "name": "Raven_Raised",
+      "enabled": true
+    },
+    
+    {
+      "name": "SchallPrimaryBattery",
+      "enabled": true
+    },
+    
+    {
+      "name": "SchallRemainsPickup",
+      "enabled": true
+    },
+    
+    {
+      "name": "SchallUncraft",
+      "enabled": true
+    },
+    
+    {
+      "name": "ShockTurret",
+      "enabled": true
+    },
+    
+    {
+      "name": "SmallFluids",
+      "enabled": true
+    },
+    
+    {
+      "name": "StatsGui",
+      "enabled": true
+    },
+    
+    {
+      "name": "vanilla-loaders-hd",
+      "enabled": true
+    },
+    
+    {
+      "name": "VehicleGrid",
+      "enabled": true
+    },
+    
+    {
+      "name": "VehicleTrails",
+      "enabled": true
+    },
+    
+    {
+      "name": "vehicle_physics_again",
+      "enabled": true
+    },
+    
+    {
+      "name": "WideChests",
+      "enabled": true
+    },
+    
+    {
+      "name": "ZEarlyBots",
+      "enabled": true
+    },
+    
+    {
+      "name": "ZElectricVehicles",
+      "enabled": true
+    },
+    
+    {
+      "name": "ZFixes",
+      "enabled": true
+    }
+  ]
+}
