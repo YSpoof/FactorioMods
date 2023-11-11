@@ -46,7 +46,7 @@ end
 
 -- Steel-Plate
 
-if scfg["ZFixes-Steel-Plate"].value then
+if scfg["ZFixes-Steel-Faster"].value then
     req("Fixes/Vanilla/Steel-Plate")
 end
 
@@ -79,6 +79,11 @@ if scfg["ZFixes-Bob-Assembly"].value then
     req("Fixes/Mods/BobAssembly")
 end
 
+
+-- Bob's Power
+if scfg["ZFixes-Bob-Power"].value then
+    req("Fixes/Mods/BobPower")
+end
 
 -- Bob's Warfare
 

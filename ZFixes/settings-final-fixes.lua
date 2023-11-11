@@ -17,6 +17,12 @@ data:extend({
     },
     {
         type = bool,
+        name = "ZFixes-Bob-Power",
+        setting_type = start,
+        default_value = true
+    },
+    {
+        type = bool,
         name = "ZFixes-Bob-Assembly",
         setting_type = start,
         default_value = true
@@ -24,12 +30,6 @@ data:extend({
     {
         type = bool,
         name = "ZFixes-Coal-Recipe",
-        setting_type = start,
-        default_value = true
-    },
-    {
-        type = bool,
-        name = "ZFixes-Steam-Furnace",
         setting_type = start,
         default_value = true
     },
@@ -107,7 +107,7 @@ data:extend({
     },
     {
         type = bool,
-        name = "ZFixes-Steel-Plate",
+        name = "ZFixes-Steel-Faster",
         setting_type = start,
         default_value = true
     },
@@ -186,4 +186,10 @@ data:extend({
         setting_type = start,
         default_value = true
     },
+    {
+        type = bool,
+        name = "ZFixes-Friendly-Fire",
+        setting_type = rglobal,
+        default_value = true
+    }
 })
